@@ -1,0 +1,11 @@
+var querystring = require('querystring');
+var q = querystring.parse('name=abc&city=khjg');
+console.log(q.name);
+console.log(q);
+var b = 12; 
+console.log(typeof b); 
+var a = querystring.parse("12");
+console.log("----->b",b);
+console.log("----->a",a);
+console.log(typeof q); 
+console.log(typeof a);  
